@@ -17,6 +17,7 @@ body{
     left:0px;
     min-width:147px;
     padding: 0;
+    z-index: 2;
     
    
 }
@@ -68,6 +69,7 @@ body{
    align-self: start;
    width:100vw;
    height:6vh;
+   z-index: 3;
 
 }
 .ham {
@@ -105,7 +107,7 @@ body{
     background-color: black;
    
   justify-self:bottom;
-  bottom: 0px;
+  
    align-items: center;
    width:100vw;
    height:6vh;
@@ -113,7 +115,7 @@ body{
     bottom: 0px;
   display: flex;
     justify-content: center;
-    z-index: -1;
+    z-index:1 ;
     flex-wrap: wrap;
 
 }
@@ -159,8 +161,10 @@ body{
     justify-content: space-between;
     width: 156px;
     
+    
 
 }
+
 .copy{
       position: absolute;
       right: 0px;
